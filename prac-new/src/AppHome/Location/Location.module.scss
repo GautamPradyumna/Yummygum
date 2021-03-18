@@ -1,0 +1,89 @@
+.header{
+    font-family: Helvetica,Arial,sans-serif!important;
+    color: #3c424f;
+    font-size: 56px;
+    line-height: 68px;
+    margin-bottom: 16px;
+}
+.maxwidth{
+    max-width: 560px;
+}
+.semihalf{
+    height: 100vh;
+}
+.inner{
+    padding: 80px;
+    height: auto;
+    justify-content: flex-start;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+.mid{
+    margin-bottom: 72px;
+}
+.officetitle{
+    font-family: Helvetica,Arial,sans-serif!important;
+    color: #3c424f;
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+}
+.backbtn{
+    margin-left: 30px;
+    margin-top: 95px;
+}
+p{
+    font-size: 20px;
+    color: #686b77;
+    line-height: 34px;
+    top:1px;
+}
+a{
+    text-decoration: none;
+    font-size: inherit;
+    line-height: inherit;
+    cursor: pointer;
+}
+.emoji{
+    top: 3px;
+    margin-left: 5px;
+}
+.social{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+.social a{
+    margin-right: 20px;
+}
+.map{
+    background-image: url('https://yummygum.com/assets/img/contact/map@2x.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 620px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    margin-top: 30px;
+}
+svg{
+    width: 20;
+    height: 16;
+}
+
+
+@media screen and (max-width: 1280px){
+.inner {
+    padding: 80px;
+}
+}

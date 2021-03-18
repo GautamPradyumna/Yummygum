@@ -1,0 +1,30 @@
+.textbox{
+    background-color: rgba(38,169,234,.5);
+    color: rgba(255,255,255,.75);
+    border: none;
+    padding: 12px 12px;
+    font-size: 18px;
+    font-family: Helvetica,Arial,sans-serif!important;
+    line-height: 1!important;
+    width: 450px;
+    height: 300px;
+}
+.invalidtextbox{
+    background-image: url(https://yummygum.com/assets/img/components/input/sad@2x.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: calc(100% - 20px) 15px;
+    background-color: rgba(255,57,93,.6);
+    color: rgba(255,255,255,.75);
+    border: none;
+    padding: 12px 12px;
+    font-size: 18px;
+    font-family: Helvetica,Arial,sans-serif!important;
+    line-height: 1!important;
+    width: 450px;
+    height: 300px;
+}
+::placeholder {
+    color: rgba(255,255,255,.75);
+    opacity: 1; 
+  }

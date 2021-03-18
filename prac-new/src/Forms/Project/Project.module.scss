@@ -1,0 +1,54 @@
+.projectwrapper{
+    width:93.2vw;
+    margin-top: 60px;
+    
+}
+// .container{
+//     display: flex;
+//     flex-direction: column;
+// }
+.visible{
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(-180deg,rgba(45,174,240,.5) 0,rgba(45,174,240,0) 95%);
+    transform: skewY(-6deg);
+    margin-top: 60px;
+}
+h3{
+    font-family: Helvetica,Arial,sans-serif;
+    color:#fff;
+    font-size: 19px;
+    display: inline-block;
+    line-height: 70px;
+}
+.header{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+Form{
+    margin-top:-80px;
+}
+.text{
+    width: 150px;
+    margin-left: 400px;
+    margin-top: 120px;
+    padding-top: 20px;
+}
+.textarea{
+    width: 100px;
+    margin-left: 750px;
+    margin-top: -280px;
+}
+.selection{
+    margin-top: -360px;
+    margin-left: 120px;
+    width: fit-content;
+    border-block: 30px;
+}
+
+.click{
+    margin-left: 1030px;
+}

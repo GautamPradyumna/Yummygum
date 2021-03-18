@@ -1,0 +1,47 @@
+.videowrapper{
+    width:91.7vw;
+    margin-top: 60px;
+}
+.visible{
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(-180deg,rgba(45,174,240,.5) 0,rgba(45,174,240,0) 95%);
+    transform: skewY(-6deg);
+    margin-top: 60px;
+}
+.form{
+    margin-top: 130px;
+}
+.header{
+    font-size: 30px;
+    // text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+h4{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.head{
+    margin-left: 80px;
+}
+.input{
+    float: left;
+    margin-left: 80px;
+}
+// .input2{
+//     float: left;
+//     margin-left: 50px;
+//     margin-top: 25px;
+// }
+.textarea{
+    float: right;
+    margin-right: 80px;
+}
+.click{
+    margin-left: 1020px;
+    margin-top: 20px;
+}

@@ -1,0 +1,30 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.left{
+    width: 50vw;
+    overflow-y: scroll;
+    min-height: 100vh;
+    flex: 1;
+}
+
+.right{
+    // width: 50vw;
+    overflow-y: hidden;
+    min-height: 100vh;
+    background-color: #58c7ff;
+}
+.closepage{
+    // background-image: url(https://yummygum.com/assets/img/close-form.svg);
+    // background-repeat: no-repeat;
+    // margin-top: 30px;
+    // margin-left: 620px;
+    border-radius: 200px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 100;
+
+}
