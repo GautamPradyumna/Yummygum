@@ -29,9 +29,10 @@ function Birds () {
     .min(10,"minimum 10 characters to be present"),
   })
 
-  const onSubmit = values => {
+  const onSubmit = (values,onSubmitProps) => {
     console.log('Form data', values);
     alert("Details have been captured succesfully");
+    onSubmitProps.resetForm();
   }
 
   return (
